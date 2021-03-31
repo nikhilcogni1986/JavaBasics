@@ -1,15 +1,17 @@
+package OOPS;
+
 public class Main
 {
   public static void main(String[] args)
   {
-//      Car porsche = new Car(4,6,"FORD","XST","Red");
+//      OOPS.Car porsche = new OOPS.Car(4,6,"FORD","XST","Red");
 //      System.out.println(porsche.getColor());
 //      System.out.println(porsche.getDoors());
 //      System.out.println(porsche.getEngine());
 //      System.out.println(porsche.getModel());
 //      System.out.println(porsche.getWheels());
 //
-//      Car ferrari = new Car("Ford","XDR");
+//      OOPS.Car ferrari = new OOPS.Car("Ford","XDR");
 //      System.out.println(ferrari.getColor());
 //      System.out.println(ferrari.getDoors());
 //      System.out.println(ferrari.getEngine());

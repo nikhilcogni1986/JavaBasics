@@ -1,3 +1,5 @@
+package OOPS;
+
 public class StudentData
 {
     private String studName;
@@ -26,7 +28,7 @@ public class StudentData
         System.out.println("Student ID is: "+myobj.studID);
 
         /*This object creation would call the parameterized
-         * constructor StudentData(int, String, int)*/
+         * constructor OOPS.StudentData(int, String, int)*/
         StudentData myobj2 = new StudentData(555, 111, "DDD");
         System.out.println("Student Name is: "+myobj2.studName);
         System.out.println("Student Age is: "+myobj2.studAge);

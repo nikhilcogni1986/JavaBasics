@@ -1,3 +1,5 @@
+package OOPS;
+
 public class MethodOverridingTest
 {
     public void display()

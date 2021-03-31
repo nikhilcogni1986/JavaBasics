@@ -1,3 +1,5 @@
+package OOPS;
+
 public class Vehicle
 {
     private String name;
@@ -32,13 +34,13 @@ public class Vehicle
     public void steer(int direction)
     {
         this.currentDirection =+ direction;
-        System.out.println("Vehicle steer: Vehicle steering at: "+currentDirection+ " degrees");
+        System.out.println("OOPS.Vehicle steer: OOPS.Vehicle steering at: "+currentDirection+ " degrees");
     }
 
     public void move(int velocity, int direction)
     {
         currentDirection = direction;
         currentVelocity = velocity;
-        System.out.println("Vehicle moving at "+currentVelocity+" in the direction "+currentDirection+ "degrees");
+        System.out.println("OOPS.Vehicle moving at "+currentVelocity+" in the direction "+currentDirection+ "degrees");
     }
 }

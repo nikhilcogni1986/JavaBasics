@@ -1,3 +1,5 @@
+package OOPS;
+
 public class dog extends Animal
 {
     private int legs;

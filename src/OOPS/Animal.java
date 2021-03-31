@@ -1,3 +1,5 @@
+package OOPS;
+
 public class Animal
 {
     private final String name;
@@ -8,12 +10,12 @@ public class Animal
 
     public void eat()
     {
-        System.out.println("Animal Eat");
+        System.out.println("OOPS.Animal Eat");
     }
 
     public void move(int speed)
     {
-        System.out.println("Moving in Animal Class at speed" + speed);
+        System.out.println("Moving in OOPS.Animal Class at speed" + speed);
     }
 
     public void walk()

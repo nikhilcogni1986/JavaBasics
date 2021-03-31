@@ -1,3 +1,5 @@
+package OOPS;
+
 public class MultiplyTwoNumbers
 {
   public static void main(String[] args)
